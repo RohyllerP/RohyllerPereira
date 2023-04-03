@@ -260,8 +260,8 @@
         font-size: 21px;
     }
     #main>div:first-child{
-        margin-top: -80px;
-        margin-bottom: 40px;
+        margin-top: -100px;
+        margin-bottom: 60px;
     }
     #btn-main {
         display: flex;
