@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="public/css/navbar.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/mainBody.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="icon" href="public/assets/img/iconos/computadora.ico">
+    <title>Rohyller Pereira</title>
+</head>
+<body id="body">
+    <div id="modal" class="modal-1 oculto">
+        <div class="model-1-information">
+            <div id="modal-div-title" class="model-2-div">
+                <div class="modal-close">
+                    <button id="btn-modal"><img src="public/assets/img/iconos/close.png" alt="logo"></button>
+                </div>
+                <div id="modal-p-url">
+                    <a id="modal-p-text" target="_blank">
+                        <p>Link del sitio</p>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div id="body-flex">
+        <header>
+            <div id="header-content">
+                <div id="header-logo">
+                    <p>R</p>
+                    <p>P</p>
+                    <div></div>
+                </div>
+                <div id="header-img">
+                    <div>
+                        <a href="https://www.linkedin.com/in/rohyller-pereira-albarran-97b7b01b7/" target="_blank"><img src="public/assets/img/iconos/cv.png" alt="cv"></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/RohyllerP" target="_blank"><img src="public/assets/img/iconos/github.png" alt="github"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main">
+            <div id="content-main">
+                <div>
+                    <p>Hola...</p>
+                    <p>Soy <span>Rohyller</span></p>
+                    <p>Déjame hablarte un poco sobre mi</p>
+                </div>
+                <div>
+                    <img src="public/assets/img/iconos/programador.png" alt="logo main img">
+                </div>
+            </div>
+            <div id="btn-main">
+                <button id="start">Empezar</button>
+            </div>
+        </div>
+    </div>
+    <main id="main-main">
+        <!-- Quien soy? -->
+        <div class="div-p" id="main-primero">
+            <h2 class="p-y">Quien soy?</h2>
+            <p class="p-y main-quien-p">Mi nombre <span class="span-green">completo:</span> Rohyller Pereira Albarrán.
+            <p class="p-y main-quien-p">Actualmente tengo <span class="p-span-1">18 años </span>estudio programación desde los 15 años de distintas plataformas (<span class="span-green">online</span> - <span class="span-red">presencial</span>).</p>
+            <br />
+            <div id="main-primero-img">
+                <a href="https://cadif1.com/" target="_blank">
+                    <img src="public/assets/img/svg/cadif1.svg" alt="cadif1">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="public/assets/img/iconos/Youtube.png" alt="youtube">
+                </a>
+                <a href="https://www.udemy.com/" target="_blank">
+                    <img src="public/assets/img/iconos/Udemy.png" alt="Udemy">
+                </a>
+                <a href="https://gracosoft.com/" target="_blank">
+                    <img src="public/assets/img/iconos/gracosoft.png" alt="gracosoft">
+                </a>
+                <a href="https://open-bootcamp.com/" target="_blank">
+                    <img src="public/assets/img/svg/svg-imagen.png" alt="open bootcamp">
+                </a>
+            </div>
+        </div>
+        <!-- skills -->
+        <h2 class="main-main-h3">Skills:</h2>
+        <div id="herramientas-main">
+            <!-- MODO con javascript -->
+            <script type="module" src="public/js/herramientas/base.js"></script>
+        </div>
+        <div class="card-herramienta-skill">
+            <div>
+                <h3>FRAMEWORKS DE CSS</h3>
+            </div>
+            <div class="card-herramienta-skill-div">
+                <div id="frameworks-css">
+                    <!-- MODO con javascript -->
+                    <script type="module" src="components/flex-skills/index.js"></script>
+                </div>
+            </div>
+        </div>
+        <!-- Proyectos -->
+        <h2 class="div-p">Proyectos</h2>
+        <div id="flex-proyect" class="div-p">
+            <script type="module" src="components/flex-proyects/index.js"></script>
+        </div>
+    </main>
+    <footer id="footer">
+        <div>
+            <div class="flex space">
+                <div>
+                    <a href="#" target="_blank"><img src="public/assets/img/iconos/facebook.png" alt="facebook"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/rohyller_p/" target="_blank"><img src="public/assets/img/iconos/instagram.png" alt="instagram"></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/rohyller-pereira-albarran-97b7b01b7/" target="_blank"><img src="public/assets/img/iconos/linkedin.png" alt="linkedin"></a>
+                </div>
+            </div>
+            <div id="footer-div-p" class="flex">
+                <div>
+                    <a href="public/assets/pdf/curriculum.pdf" target="_blank"><p>Curriculum</p></a>
+                </div>
+                <div>
+                    <a href="https://github.com/RohyllerP" target="_blank"><p>Github-pages</p></a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>© 2023 - Rohyller Pereira</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="public/js/navbar.js"></script>
+    <script src="public/js/modal/index.js"></script>
+</body>
+</html>
