@@ -42,7 +42,7 @@ export const data = [
     {
         "id": 6,
         "title": "LARAVEL",
-        "img": "public/assets/img/iconos/laravel.png",
+        "img": "public/assets/img/iconos/Laravel.png",
         "alt": "LARAVEL LOGO",
         "porcentaje": "30",
         "text": "Rutas Rutas-avanzadas Middleware Controladores Plantillas-blade Componentes MCV Variables-de-entorno Roles-de-usuario Autenticación Sessiones Peticiones-HTTP CRUD",
