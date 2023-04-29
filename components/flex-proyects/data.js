@@ -17,10 +17,10 @@ export const proyects = [
   },
   {
     id: 3,
-    title: 'PORTAFOLIO',
-    link: 'https://proyect-psi.vercel.app/',
-    text: 'Sitio web para prensentar las mejores imagenes con su mejor calidad (Next js - Chakra ui)', 
-    url: 'public/assets/img/proyects/animale.png',
-    alt: 'animales',
+    title: 'CARTAS MARIO BROS',
+    link: 'https://rohyllerp.github.io/cartas-rohyller/',
+    text: 'Sitio web para juego de cartas con tiempo y mejor tiempo incluido (Javascript - Boostrap - Css y Html)', 
+    url: 'public/assets/img/proyects/cartas.png',
+    alt: 'cartas',
   },
 ];
