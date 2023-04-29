@@ -23,7 +23,7 @@ proyects.map(k => {
         const pDivp = document.createElement('p');
         const pDivText = document.createTextNode(`${k.text}`);
         const modalUrl = document.getElementById('modal-p-text');
-        modalUrl.setAttribute('href', `${k.url}`);
+        modalUrl.setAttribute('href', `${k.link}`);
 
         // ajustes
         pDiv.setAttribute('id', 'modal-p');
