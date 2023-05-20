@@ -1,0 +1,283 @@
+#main {
+    width: 100%;
+    height: 80vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main>div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main>div:first-child p {
+    font-size: 26px;
+    color: var(--gris-color);
+    line-height: 2.8em;
+}
+#main > div:first-child p:hover{
+    animation-name: shakefix;
+    -webkit-animation-name: shakefix;
+    -moz-animation-name: shakefix;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+#main>div:first-child p span {
+    color: var(--span-green);
+}
+
+#main>div:first-child div:last-child {
+    margin-right: -15px;
+}
+
+#main>div:first-child img {
+    width: 300px;
+    height: 250px;
+}
+#main>div:first-child img:hover{
+    animation-name: shakefix;
+    -webkit-animation-name: shakefix;
+    -moz-animation-name: shakefix;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+#btn-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+
+}
+
+#btn-main>button {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: var(--header-border);
+    cursor: pointer;
+}
+
+#btn-main>button{
+    animation-name: shakefix;
+    -webkit-animation-name: shakefix;
+    -moz-animation-name: shakefix;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+
+/* MODAL */
+#modal {
+    position: fixed;
+}
+
+.modal-1 {
+    background-color: rgba(88, 88, 88, 0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal-1>.model-1-information {
+    position: relative;
+    width: 50%;
+    height: 350px;
+    background-color: white;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+}
+
+.modal-1 .model-1-information .modal-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.modal-1 .model-2-div {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.modal-1 .model-1-information .modal-close>button {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+#modal-p {
+    position: absolute;
+    margin-top: 40px;
+}
+
+#modal-p-url a {
+    color: #000000;
+    transition: color 0.3s ease-in;
+}
+
+#modal-p-url a:hover {
+    color: var(--header-border);
+}
+
+#modal-p p, #modal-p-url p{
+    font-size: 19px;
+}
+
+#modal-p-url {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#efect-p p:hover{
+    animation-name: shakefix;
+    -webkit-animation-name: shakefix;
+    -moz-animation-name: shakefix;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+
+@keyframes animarsuperior {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes shakefix {
+    0% {
+        transform: translate(1px, 1px);
+    }
+
+    10% {
+        transform: translate(-1px, -2px);
+    }
+
+    20% {
+        transform: translate(-3px, 0px);
+    }
+
+    30% {
+        transform: translate(3px, 2px);
+    }
+
+    40% {
+        transform: translate(1px, -1px);
+    }
+
+    50% {
+        transform: translate(-1px, 2px);
+    }
+
+    60% {
+        transform: translate(-3px, 1px);
+    }
+
+    70% {
+        transform: translate(3px, 1px);
+    }
+
+    80% {
+        transform: translate(-1px, -1px);
+    }
+
+    90% {
+        transform: translate(1px, 2px);
+    }
+
+    100% {
+        transform: translate(1px, -2px);
+    }
+}
+.flex-1 {
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    #main>div:first-child p {
+        font-size: 22px;
+    }
+
+    #modal-p p,
+    #modal-p-url p {
+        font-size: 17px;
+    }
+
+    .modal-1>.model-1-information {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #main>div:first-child{
+        margin-top: -80px;
+        margin-bottom: 40px;
+    }
+    #main>div:first-child img {
+        display: none;
+    }
+
+    #main #content-main {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #main>div:first-child p {
+        line-height: 2em;
+        font-size: 21px;
+    }
+
+    #btn-main {
+        display: flex;
+    }
+
+    .modal-1>.model-1-information {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #modal-p p,
+    #modal-p-url p {
+        font-size: 17px;
+    }
+
+    .modal-1>.model-1-information {
+        width: 100%;
+    }
+}

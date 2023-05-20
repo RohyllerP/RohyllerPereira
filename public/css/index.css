@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color: #F1DEC9;
+    --gris-color: #323232;
+    --header-border: #8D7B68;
+    --span-green: #00845B;
+    --span-red: #FF1111;
+}
+
+body {
+    font-family: 'Shantell Sans', cursive;
+    background: var(--body-color);
+}
+
+#body-flex {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+}
+
+.div-p {
+    padding: 40px 40px;
+}
+
+.p-y {
+    padding: 10px 0px;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--gris-color);
+    border-radius: 0px 0px 31px 34px;
+    -webkit-border-radius: 0px 0px 31px 34px;
+    -moz-border-radius: 0px 0px 31px 34px;
+}
