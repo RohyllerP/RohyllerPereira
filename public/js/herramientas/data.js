@@ -21,7 +21,7 @@ export const data = [
         "img": "public/assets/img/iconos/javascript.png",
         "alt": "javascript logo",
         "porcentaje": "50",
-        "text": "Variables Tipos-de-datos Ciclos Arreglos Funciones-matematicas Eventos DOM BOM Funciones Depurador",
+        "text": "Variables Tipos-de-datos Ciclos Arreglos Funciones-matematicas Eventos DOM BOM Funciones Depurador Clases JSON Almacenamiento-local Ejecución-automatica Asincronia Promesas Formularios Expre-regulares",
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@ export const data = [
         "img": "public/assets/img/iconos/php.png",
         "alt": "PHP LOGO",
         "porcentaje": "30",
-        "text": "Variables Constantes Tipos-de-datos Ciclos Arrays Listas MCV Sesiones Login CRUD Autenticación Sessiones Peticiones-HTTP",
+        "text": "Variables Constantes Tipos-de-datos Ciclos Arrays Listas MCV Sesiones Login CRUD Autenticación Sessiones Peticiones-HTTP Conectar-Mysql",
     },
     {
         "id": 5,
