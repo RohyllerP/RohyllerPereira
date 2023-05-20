@@ -23,4 +23,12 @@ export const proyects = [
     url: 'public/assets/img/proyects/cartas.png',
     alt: 'cartas',
   },
+  {
+    id: 4,
+    title: 'Almacen',
+    link: 'http://gestor.myartsonline.com/',
+    text: 'Mini sitio web con LOGIN, y vista para productos (PHP - MYSQL - Javascript - Boostrap - CSS y Html)', 
+    url: 'public/assets/img/proyects/almacen.png',
+    alt: 'Almacen',
+  },
 ];
