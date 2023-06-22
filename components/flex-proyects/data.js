@@ -18,7 +18,7 @@ export const proyects = [
   {
     id: 3,
     title: 'CARTAS MARIO BROS',
-    link: 'https://rohyllerp.github.io/cartas-rohyller/',
+    link: 'https://rohyllerp.github.io/cartas/',
     text: 'Sitio web para juego de cartas con tiempo y mejor tiempo incluido (Javascript - Boostrap - Css y Html)', 
     url: 'public/assets/img/proyects/cartas.png',
     alt: 'cartas',
