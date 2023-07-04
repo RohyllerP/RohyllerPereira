@@ -31,4 +31,12 @@ export const proyects = [
     url: 'public/assets/img/proyects/almacen.png',
     alt: 'Almacen',
   },
+  {
+    id: 5,
+    title: 'NOTAS',
+    link: 'https://rohyllerp.github.io/notas/',
+    text: 'Sitio web de un ejemplo de "to-do list" donde podemos crear categorias y en esas categorias crear tareas, editar tareas, eliminar tareas y más. Todas estas se guardarán a pesar que cierres la ventana. (HTML - BOOSTRAP - JQUERY)', 
+    url: 'public/assets/img/proyects/notas.png',
+    alt: 'notas',
+  },
 ];
