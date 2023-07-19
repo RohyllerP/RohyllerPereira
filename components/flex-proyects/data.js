@@ -39,4 +39,12 @@ export const proyects = [
     url: 'public/assets/img/proyects/notas.png',
     alt: 'notas',
   },
+  {
+    id: 6,
+    title: 'CALCULADORA',
+    link: 'https://rohyllerp.github.io/calculadora/',
+    text: 'Sitio web responsive de ejemplo de una calculadora funcional, tiene además cambio de color en modo oscuro y modo claro. (HTML,CSS,JAVASCRIPT)', 
+    url: 'public/assets/img/proyects/calculadora.png',
+    alt: 'calculadora',
+  },
 ];
