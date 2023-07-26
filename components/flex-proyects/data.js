@@ -47,4 +47,12 @@ export const proyects = [
     url: 'public/assets/img/proyects/calculadora.png',
     alt: 'calculadora',
   },
+  {
+    id: 7,
+    title: 'Calculadora de edad',
+    link: 'https://rohyllerp.github.io/age-calculator/',
+    text: 'Calculadora de edad referente a la fecha de nacimiento y a la fecha actual dando años que han transcurrido, meses y dias (HTML,CSS,JAVASCRIPT,MOMENT.JS)', 
+    url: 'public/assets/img/proyects/age-calculator.png',
+    alt: 'age calculator',
+  },
 ];
