@@ -55,5 +55,13 @@ export const data = [
         "porcentaje": "60",
         "text": "Tipos-de-Datos Crear-Tablas CRUD Utilización-de-Select Select-Operadores-Condicionales Funciones-de-cadena Operadores-Logicos Manejo-de-Fechas Join Alter-table Primary-key Foreign-key Drop-table",
     },
+    {
+        "id": 8,
+        "title": "VUE",
+        "img": "public/assets/img/iconos/vue.png",
+        "alt": "VUE LOGO",
+        "porcentaje": "70",
+        "text": "Reactive Ref V-bind V-model V-if V-else V-show V-for Manejadores-Eventos Modificadores-Eventos Referencia-Computada Componentes Ciclo-de-vida Template-Refs Watch-Watcheffect Props Emit Slot",
+    },
 ];
 
