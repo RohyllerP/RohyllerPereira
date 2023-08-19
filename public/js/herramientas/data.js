@@ -21,7 +21,7 @@ export const data = [
         "img": "public/assets/img/iconos/javascript.png",
         "alt": "javascript logo",
         "porcentaje": "50",
-        "text": "Variables Tipos-de-datos Ciclos Arreglos Funciones-matematicas Eventos DOM BOM Funciones Depurador Clases JSON Almacenamiento-local Ejecución-automatica Asincronia Promesas Formularios Expre-regulares",
+        "text": "Variables Tipos-de-datos Ciclos Arreglos Funciones-matematicas Eventos DOM BOM Funciones Depurador Clases JSON Almacenamiento-local Ejecución-automatica Asincronia Promesas Formularios Expre-regulares Apis Api-rest Ajax Fetch formdata Web-Token",
     },
     {
         "id": 4,
