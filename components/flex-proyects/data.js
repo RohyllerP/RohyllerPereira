@@ -55,4 +55,12 @@ export const proyects = [
     url: 'public/assets/img/proyects/age-calculator.png',
     alt: 'age calculator',
   },
+  {
+    id: 8,
+    title: 'Tic tac toe',
+    link: 'https://tic-tac-toe-rohyllerp.vercel.app/',
+    text: 'EL juego famoso llamado Tic-tac-toe "la vieja" en algunos países (HTML,CSS,VUE JS)', 
+    url: 'public/assets/img/proyects/tic-tac-toe.png',
+    alt: 'tic-tac-toe',
+  },
 ];
