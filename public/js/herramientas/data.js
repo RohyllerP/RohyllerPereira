@@ -60,8 +60,24 @@ export const data = [
         "title": "VUE",
         "img": "public/assets/img/iconos/vue.png",
         "alt": "VUE LOGO",
-        "porcentaje": "70",
-        "text": "Reactive Ref V-bind V-model V-if V-else V-show V-for Manejadores-Eventos Modificadores-Eventos Referencia-Computada Componentes Ciclo-de-vida Template-Refs Watch-Watcheffect Props Emit Slot",
+        "porcentaje": "90",
+        "text": "Reactive Ref V-bind V-model V-if V-else V-show V-for Manejadores-Eventos Modificadores-Eventos Referencia-Computada Componentes Ciclo-de-vida Template-Refs Watch-Watcheffect Props Emit Slot Apis",
+    },
+    {
+        "id": 9,
+        "title": "TYPESCRIPT",
+        "img": "public/assets/img/iconos/typescript.png",
+        "alt": "TYPESCRIPT LOGO",
+        "porcentaje": "60",
+        "text": "Tipos-de-dato Funciones Interfaces Canvas Clases Enums Modulos Objetos",
+    },
+    {
+        "id": 10,
+        "title": "NEXT",
+        "img": "public/assets/img/iconos/next.png",
+        "alt": "NEXT LOGO",
+        "porcentaje": "40",
+        "text": "Interfaz-usuario Binding Props-componente Renderizado-condicional Renderizado-arreglos  Manejadores-eventos Use-state UseEffect UseRef Immer React-routing Apis",
     },
 ];
 
