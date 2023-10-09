@@ -350,4 +350,7 @@ h1,h2,h3,h4,h5{
     #flex-certificados{
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     }
+    .certificados-flex p{
+        font-size: 14px;
+    }
 }
