@@ -79,5 +79,21 @@ export const data = [
         "porcentaje": "40",
         "text": "Interfaz-usuario Binding Props-componente Renderizado-condicional Renderizado-arreglos  Manejadores-eventos Use-state UseEffect UseRef Immer React-routing Apis Use-Memo Use-Callback Use-Context",
     },
+    {
+        "id": 11,
+        "title": "ANGULAR",
+        "img": "public/assets/img/iconos/angular.png",
+        "alt": "ANGULAR LOGO",
+        "porcentaje": "40",
+        "text": "Patron-mvc Componentes Estilos Librerias-estilos Angular-material Binding Eventos ngIf ngFor ngModal Modulos Router Dist Deploy",
+    },
+    {
+        "id": 12,
+        "title": "iONIC",
+        "img": "public/assets/img/iconos/ionic.png",
+        "alt": "iONIC LOGO",
+        "porcentaje": "40",
+        "text": "Estructura-proyecto Estructura-vistas Barra-herramientas Items Componentes Paginas Contenido-dinamico Navegacion Eventos Toasts Alerts Captura-datos Slides"
+    }
 ];
 
