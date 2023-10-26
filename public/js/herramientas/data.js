@@ -69,7 +69,7 @@ export const data = [
         "img": "public/assets/img/iconos/typescript.png",
         "alt": "TYPESCRIPT LOGO",
         "porcentaje": "60",
-        "text": "Tipos-de-dato Funciones Interfaces Canvas Clases Enums Modulos Objetos",
+        "text": "Tipos-de-dato Funciones Interfaces Canvas Clases Enums Modulos Objetos Genericos",
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@ export const data = [
         "img": "public/assets/img/iconos/next.png",
         "alt": "NEXT LOGO",
         "porcentaje": "40",
-        "text": "Interfaz-usuario Binding Props-componente Renderizado-condicional Renderizado-arreglos  Manejadores-eventos Use-state UseEffect UseRef Immer React-routing Apis",
+        "text": "Interfaz-usuario Binding Props-componente Renderizado-condicional Renderizado-arreglos  Manejadores-eventos Use-state UseEffect UseRef Immer React-routing Apis Use-Memo Use-Callback Use-Context",
     },
 ];
 
