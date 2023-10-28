@@ -63,4 +63,20 @@ export const proyects = [
     url: 'public/assets/img/proyects/tic-tac-toe.png',
     alt: 'tic-tac-toe',
   },
+  {
+    id: 9 ,
+    title: 'Facebook view',
+    link: 'https://rohyllerp.github.io/face-view/',
+    text: 'Sitio web de una pagina de facebook probando e utilizando el framework de boostrap con sus componentes(HTML, Boostrap)',
+    url: 'public/assets/img/proyects/facebook-view.png',
+    alt: 'face-view',
+  },
+  {
+    id: 10, 
+    title: 'Consumiendo api de CADIF1',
+    link: 'https://rohyllerp.github.io/api-CADIF1/',
+    text: 'Página web que consume una api de CADIF1 con FETCH (HTML, CSS, JQUERY)',
+    url: 'public/assets/img/proyects/api-cadif1.png',
+    alt: 'api-cadif1',
+  }
 ];
