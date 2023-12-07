@@ -84,16 +84,16 @@ export const data = [
         "title": "ANGULAR",
         "img": "public/assets/img/iconos/angular.png",
         "alt": "ANGULAR LOGO",
-        "porcentaje": "40",
-        "text": "Patron-mvc Componentes Estilos Librerias-estilos Angular-material Binding Eventos ngIf ngFor ngModal Modulos Router Dist Deploy",
+        "porcentaje": "70",
+        "text": "Patron-mvc Componentes Estilos Librerias-estilos Angular-material Binding Eventos ngIf ngFor ngModal Modulos Router Dist Deploy Formularios Servicios Servicios-http Formularios-Reactivos Eventos-entre-componentes Pipes Guardias HTTP Interceptores",
     },
     {
         "id": 12,
         "title": "iONIC",
         "img": "public/assets/img/iconos/ionic.png",
         "alt": "iONIC LOGO",
-        "porcentaje": "40",
-        "text": "Estructura-proyecto Estructura-vistas Barra-herramientas Items Componentes Paginas Contenido-dinamico Navegacion Eventos Toasts Alerts Captura-datos Slides"
+        "porcentaje": "60",
+        "text": "Estructura-proyecto Estructura-vistas Barra-herramientas Items Componentes Paginas Contenido-dinamico Navegacion Eventos Toasts Alerts Captura-datos Slides Plugin-Camara Plugin-geolocalizacion Plugin-GoogleMaps Plugin-Network Plugin-Linterna Construccion-Apk",
     }
 ];
 
