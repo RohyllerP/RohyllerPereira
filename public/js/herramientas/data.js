@@ -28,8 +28,8 @@ export const data = [
         "title": "PHP",
         "img": "public/assets/img/iconos/php.png",
         "alt": "PHP LOGO",
-        "porcentaje": "30",
-        "text": "Variables Constantes Tipos-de-datos Ciclos Arrays Listas MCV Sesiones Login CRUD Autenticación Sessiones Peticiones-HTTP Conectar-Mysql",
+        "porcentaje": "80",
+        "text": "Variables Constantes Tipos-de-datos Ciclos Arrays Listas Modelo-Vista-Controlador Sesiones Login CRUD Autenticación Sessiones Peticiones-HTTP Conectar-Mysql Vista-404",
     },
     {
         "id": 5,

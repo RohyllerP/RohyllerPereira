@@ -1,7 +1,7 @@
 const frameworks = [
     {
         id: 1,
-        title: 'BOOTSTRAP', 'name': 'ANTERIOR',
+        title: 'BOOTSTRAP', 
         url: 'public/assets/img/iconos/bootstrap.png',
         alt: 'Bootstrap'
     },
@@ -9,17 +9,27 @@ const frameworks = [
     {
         id: 2,
         title: 'CHAKRA UI',
-        name: 'ANTERIOR',
         url: 'public/assets/img/svg/chakra.svg',
         alt: 'chakra ui'
     },
     { 
         id: 3, 
         title: 'MATERIAL UI', 
-        name: 'ANTERIOR', 
         url: 'public/assets/img/svg/material-ui.svg', 
         alt: 'material ui'
     },
+    {
+        id: 4,
+        title: 'JQUERY',
+        url: 'public/assets/img/iconos/jquery.png',
+        alt: 'jquery'
+    },
+    {
+        id: 5,
+        title: 'SASS',
+        url: 'public/assets/img/iconos/sass.png',
+        alt: 'sass'
+    }
 ];
 
 const frame = document.getElementById('frameworks-css');

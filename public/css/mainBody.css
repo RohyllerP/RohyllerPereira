@@ -175,6 +175,9 @@ h1,h2,h3,h4,h5{
 }
 #frameworks-css{
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 17px 0px;
 }
 /* CERTIFICADOS */
 .certificados-flex{
