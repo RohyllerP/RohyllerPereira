@@ -87,6 +87,7 @@ h5 {
 
 .card-herramienta-skill {
     text-align: center;
+    padding-bottom: 30px;
     border-bottom: 2px solid var(--header-border);
 }
 
@@ -99,19 +100,20 @@ h5 {
 .card-herramienta-skill-div {
     display: flex;
     justify-content: center;
-    padding: 30px 35px;
+    padding: 45px 35px;
+    gap: 20px;
 }
 
 .card-herramienta-skill img {
     width: 50px;
     height: 50px;
     margin: 0px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
 }
 
-.card-herramienta-skill img:hover {
-    transform: translateY(20px);
+.card-herramienta-skill #frameworks-css div:hover {
+    .mensaje {
+        visibility: visible;
+    }
 }
 
 .card-herramienta-last-top {
@@ -219,7 +221,7 @@ h5 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 17px 0px;
+    gap: 52px 0px;
 }
 
 /* proyectos app*/
@@ -230,13 +232,15 @@ h5 {
         row-gap: 20px;
         column-gap: 20px;
         font-family: 'Lato', sans-serif;
+
         div:nth-child(2) {
             display: flex;
             flex-direction: column;
             justify-content: center;
             gap: 35px;
-            .btn-download{
-                button{
+
+            .btn-download {
+                button {
                     font-family: 'Shantell Sans', cursive;
                     font-size: 20px;
                     padding: 5px 10px;
@@ -250,27 +254,32 @@ h5 {
                     -webkit-animation: all 0.3s ease-in-out;
                     -moz-animation: all 0.3s ease-in-out;
                     -ms-transition: all 0.3s ease-in-out;
-                    a{
+
+                    a {
                         color: white;
                         text-decoration: none;
                     }
                 }
-                button:hover{
+
+                button:hover {
                     background-color: rgb(116, 114, 114);
 
                 }
             }
         }
-        iframe{
+
+        iframe {
             width: 100%;
             height: 50vh
         }
+
         h4 {
             font-weight: 600;
             font-size: 21.5px;
             padding-bottom: 5px;
         }
-        p{
+
+        p {
             font-size: 15px;
             line-height: 1.4em;
             color: rgb(43, 43, 43);
@@ -281,12 +290,16 @@ h5 {
 /* CERTIFICADOS */
 .certificados-flex {
     padding: 0px 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid var(--header-border);
 }
 
 .certificados-flex p {
-    padding-bottom: 20px;
-    font-size: 16.5px;
+    margin-top: 5px;
+    font-size: 18.5px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
@@ -297,6 +310,44 @@ h5 {
 
 .certificados-flex a:hover {
     color: rgb(0, 0, 0);
+}
+
+
+.flecha {
+    cursor: pointer;
+}
+
+.div-frameworks-img {
+    position: relative;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    position: relative;
+    margin-top: -85px;
+    z-index: 999999;
+    transition: all 0.1s ease-in;
+    visibility: hidden;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -16px;
+        left: 50%;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 8px 16px 8px;
+        border-color: transparent transparent rgba(51, 51, 51, 0.9) transparent;
+        transform: rotate(180deg);
+    }
 }
 
 @keyframes jello {
@@ -408,6 +459,7 @@ h5 {
         width: 100%;
         height: 80%;
     }
+
     #apps-proyect {
         .app-content {
             div:nth-child(2) {
@@ -438,16 +490,27 @@ h5 {
     .herra-right {
         width: 50%;
     }
+
     #apps-proyect {
         .app-content {
-            iframe{
-               height: 65vh;
+            iframe {
+                height: 65vh;
             }
         }
+    }
+
+    .flecha {
+        width: 25px;
+        height: 25px;
     }
 }
 
 @media screen and (max-width: 550px) {
+    .flecha {
+        width: 25px;
+        height: 30px;
+    }
+
     #main-main {
         padding-top: 90px;
     }
@@ -468,11 +531,13 @@ h5 {
     .card-herramienta-last-top {
         border-bottom: 0px;
     }
+
     #apps-proyect {
         .app-content {
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            iframe{
-               height: 75vh;
+
+            iframe {
+                height: 75vh;
             }
         }
     }
@@ -496,14 +561,22 @@ h5 {
     }
 
     .certificados-flex p {
-        font-size: 14px;
+        font-size: 16.5px;
     }
+
     #apps-proyect {
         .app-content {
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            iframe{
-               height: 75vh;
+
+            iframe {
+                height: 75vh;
             }
         }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .certificados-flex p {
+        margin-top: -5px
     }
 }

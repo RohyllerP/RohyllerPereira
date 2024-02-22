@@ -12,12 +12,16 @@ header #header-content{
     border-bottom: 2px solid var(--header-border);
 }
 header #header-content #header-img,header #header-content #header-logo{
+    font-size: 25px;
     display: flex;
+}
+header #header-content #header-logo p{
+    color: #323232
 }
 header #header-content #header-logo > div{
     position: absolute;
     top: 0px;
-    left: 6.5em;
+    left: 4.5em;
     height: 77px;
     border-right: 2px solid var(--header-border);
 }
@@ -39,7 +43,7 @@ header #header-content #header-img img{
     header #header-content #header-logo{
         display: flex;
         justify-content: center;
-        padding-top: 12px;
+        padding-top: 8px;
     }
     header #header-content #header-logo::after{
         content: "";

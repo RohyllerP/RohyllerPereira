@@ -1,20 +1,30 @@
 import { datos } from './datos.js';
-const div = document.getElementById('flex-certificados');
+const divPadre = document.getElementById('flexCertificados');
+const fleIzquierda = document.getElementById('fleIzquierda');
+const fleDerecha = document.getElementById('fleDerecha');
 
-datos.map(k => {
-    const divSon = document.createElement('div');
-    const img = document.createElement('img');
-    //
-    divSon.setAttribute('id', `div-certifi-${k.id}`);
-    divSon.classList.add('flex-certifi-div');
-    img.setAttribute('src', `${k.img}`);
-    img.setAttribute('alt', `${k.alt}`);
+let aux = 0;
+const div = document.createElement('div');
+const p = document.createElement('p');
+const a = document.createElement('a');
+a.setAttribute('href', datos[aux].url);
+a.setAttribute('target', '_blank');
+a.textContent = datos[aux].text;
+p.appendChild(a);
+div.appendChild(p);
+divPadre.insertBefore(div,divPadre.children[2]);
 
-    //
-    divSon.onclick = () => {
-       alert("HOLA");
+fleIzquierda.onclick = function(){
+    if(aux != 0){
+        aux--;
+        a.setAttribute('href', datos[aux].url);
+        a.textContent = datos[aux].text
     }
-    //
-    divSon.appendChild(img);
-    div.appendChild(divSon);
-})
+}
+fleDerecha.onclick = function(){
+    if(aux != datos.length-1){
+        aux++;
+        a.setAttribute('href', datos[aux].url);
+        a.textContent = datos[aux].text
+    }
+}
